@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <div>
+      <span><i class="fa-solid fa-star"></i></span>
+      <span><i class="fa-solid fa-star"></i></span>
+      <span><i class="fa-solid fa-star"></i></span>
+    </div>
   </div>
 </template>
 
