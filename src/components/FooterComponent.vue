@@ -1,40 +1,27 @@
 <template>
   <footer class="container-fluid">
-    <div id="info" class="row">
-        <div class="col-3 d-flex flex-column">
-            <img src="@/assets/images/image.png" class="logo-img" alt="Nex Gen">
-            <p>A Functional HTML template for Corporate & Business</p>
-            <span class="px-2"><i class="fa-solid fa-phone pe-3"></i>+ 1 (305) 1234-5678</span>
-            <span class="px-2"><i class="fa-solid fa-envelope pe-3"></i><a href="#">hello@example.com</a></span>
-            <span class="px-2"><i class="fa-solid fa-location-dot pe-3"></i>Main Avenue, 987</span>
-            <button>GET IN TOUCH</button>
-        </div>
-        <div id="card" class="col-3">
-            <h5>About</h5>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-        </div>
-        <div id="card" class="col-3">
-            <h5>Services</h5>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-        </div>
-        <div id="card" class="col-3">
-            <h5>Support</h5>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
-            <p><span><i class="fa-solid fa-angle-right"></i></span>The Company</p>
+    <div class="container">
+        <div id="info" class="row">
+            <div class="col-3 d-flex flex-column">
+                <img src="@/assets/images/image.png" class="logo-img" alt="Nex Gen">
+                <p class="mb-3">A Functional HTML template for Corporate & Business</p>
+                <span class="px-2 "><i class="fa-solid fa-phone pe-3"></i>+ 1 (305) 1234-5678</span>
+                <span class="px-2"><i class="fa-solid fa-envelope pe-3"></i><a href="#">hello@example.com</a></span>
+                <span class="px-2"><i class="fa-solid fa-location-dot pe-3"></i>Main Avenue, 987</span>
+                <button>GET IN TOUCH</button>
+            </div>
+            <div id="card" class="col-3 me-4">
+                <h5>About</h5>
+                <p v-for="(link, index) in footerlink" :key="index"><span><i class="fa-solid fa-angle-right"></i></span>{{link.about}}</p>
+            </div>
+            <div id="card" class="col-3 me-4">
+                <h5>Services</h5>
+                <p v-for="(link, index) in footerlink" :key="index"><span><i class="fa-solid fa-angle-right"></i></span>{{link.service}}</p>
+            </div>
+            <div id="card" class="col-3 me-4">
+                <h5>Support</h5>
+                <p v-for="(link, index) in footerlink" :key="index"><span><i class="fa-solid fa-angle-right"></i></span>{{link.inst}}</p>
+            </div>
         </div>
     </div>
   </footer>
@@ -42,21 +29,39 @@
 
 <script>
 export default {
-name : 'FooterComponent'
+name : 'FooterComponent',
+props : {
+    footerlink : Array
+}
+
 }
 </script>
 
 <style lang="scss" scoped>
 footer{
-        background-color: black;
-        color: hsl(255deg 6% 74%);
+    background-color: black;
+    color: hsl(255deg 6% 74%);
+}
+
+#info{
+    padding: 100px 0;
+    button {
+        width: 50%;
+        border: 1px solid #0d7e7e;
+        border-radius: 5%;
+        background-color: transparent;
+        color: white;
+        margin: 10px 0;
     }
+}
+
 .logo-img{
-    max-width: 25%;
+    max-width: 30%;
+    margin: 10px 0;
 }
 #card{
     background-color: hsl(240deg 12% 11%);
-    width: 300px;
+    width: 250px;
     height: 350px;
     h5{
         color: white;

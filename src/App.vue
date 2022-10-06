@@ -2,7 +2,7 @@
   <div id="app">
     <HeaderComponent :navbartext="navbar"/>
     <MainComponent />
-    <FooterComponent />
+    <FooterComponent :footerlink="footerlink"/>
   </div>
 </template>
 
@@ -24,28 +24,54 @@ export default {
       navbar: [
         {
           text: 'HOME',
-          position: 1
         },
         {
           text: 'ABOUT',
-          position: 2
         },
         {
           text: 'SERVICES',
-          position: 3
         },
         {
           text: 'PRICING',
-          position: 4
         },
         {
           text: 'BLOG',
-          position: 5
         },
         {
           text: 'GET IN TOUCH',
-          position: 6
         }
+      ],
+      footerlink: [
+        {
+          about : 'The Company' ,
+          inst : 'Institutional',
+          service : 'Education',
+        },
+        {
+          about: 'The Company',
+          inst: 'Institutional',
+          service: 'Education',
+        },
+        {
+          about: 'The Company',
+          inst: 'Institutional',
+          service: 'Education',
+        },
+        {
+          about: 'The Company',
+          inst: 'Institutional',
+          service: 'Education',
+        },
+        {
+          about: 'The Company',
+          inst: 'Institutional',
+          service: 'Education',
+        },
+        {
+          about: 'The Company',
+          inst: 'Institutional',
+          service: 'Education',
+        },
       ]
     }
   }

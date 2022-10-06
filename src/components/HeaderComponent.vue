@@ -1,11 +1,11 @@
 <template>
   <header class="container-fluid">
-    <div id="upper-part" class="row d-flex py-2">
-        <div id="hours" class="d-flex col-6 px-4 justify-content-center">
+    <div id="upper-part" class="row d-flex py-2 justify-content-around">
+        <div id="hours" class="d-flex col-6 px-4">
             <span class="px-2"><i class="fa-solid fa-clock"></i></span>
             <p>Open Hours : Mon - Sat 9:00 - 18:00</p>
         </div>
-        <div id="contacts" class="d-flex col-6 px-4 justify-content-center">
+        <div id="contacts" class="d-flex col-6 px-4">
             <span class="px-2"><i class="fa-solid fa-phone"></i></span>
             <p class="pe-4">+ 1 (305) 1234-5678</p>
             <span class="px-2"><i class="fa-solid fa-envelope"></i></span>
@@ -15,6 +15,7 @@
             <span class="px-2"><i class="fa-brands fa-linkedin"></i></span>
         </div>
     </div>
+
     <div id="lower-part" class="row d-flex py-2 justify-content-around">
         <div id="navigation" class="d-flex col-6">
             <div>
@@ -55,8 +56,8 @@ props: {
     background-image: url(@/assets/images/hero-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(0.6);
     height: 80vh;
+    z-index: -1;
     .logo-img{
         width: 50%;
     }
