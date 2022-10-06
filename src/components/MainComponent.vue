@@ -38,6 +38,57 @@
             </div>
         </div>
     </section>
+
+    <section id="card-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p>OUR BUSINESS AREAS</p>
+                    <h2>EXCELLENCE IN SERVICES</h2>
+                    <div class="d-flex">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia hic fuga rem dolorum fugit doloremque</p>
+                        <button>SEE ALL</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <span><i class="fa-solid fa-cubes"></i></span>
+                    <h5>Audit and assurance</h5>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
+                    <button>READ MORE</button>
+                </div>
+                <div class="col-4">
+                    <span><i class="fa-solid fa-cubes"></i></span>
+                    <h5>Audit and assurance</h5>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
+                    <button>READ MORE</button>
+                </div>
+                <div class="col-4">
+                    <span><i class="fa-solid fa-cubes"></i></span>
+                    <h5>Audit and assurance</h5>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
+                    <button>READ MORE</button>
+                </div>
+                <div class="col-4">
+                    <span><i class="fa-solid fa-cubes"></i></span>
+                    <h5>Audit and assurance</h5>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
+                    <button>READ MORE</button>
+                </div>
+                <div class="col-4">
+                    <span><i class="fa-solid fa-cubes"></i></span>
+                    <h5>Audit and assurance</h5>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
+                    <button>READ MORE</button>
+                </div>
+                <div class="col-4">
+                    <span><i class="fa-solid fa-cubes"></i></span>
+                    <h5>Audit and assurance</h5>
+                    <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
   </main>
 </template>
 
