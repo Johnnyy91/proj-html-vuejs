@@ -1,7 +1,7 @@
 <template>
 <section id="send-info-message">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-6">
                 <p>SEND A MESSAGE</p>
                 <h2>GET IN TOUCH</h2>
@@ -17,7 +17,7 @@
                     <button>SEND</button>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-3">
                 <h5>Example Inc.</h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>

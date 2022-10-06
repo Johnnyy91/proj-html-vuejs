@@ -1,8 +1,8 @@
 <template>
 <section id="card-content">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
+        <div class="row justify-content-center">
+            <div class="col-10">
                 <p>OUR BUSINESS AREAS</p>
                 <h2>EXCELLENCE IN SERVICES</h2>
                 <div class="d-flex">
@@ -11,37 +11,37 @@
                     <button>SEE ALL</button>
                 </div>
             </div>
-            <div class="col-4 card-skinning">
+            <div class="card-skinning">
                 <span><i class="fa-solid fa-cubes"></i></span>
                 <h5>Audit and assurance</h5>
                 <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
                 <button>READ MORE</button>
             </div>
-            <div class="col-4 card-skinning">
+            <div class="card-skinning">
                 <span><i class="fa-solid fa-briefcase"></i></span>
                 <h5>Financial Advisory</h5>
                 <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
                 <button>READ MORE</button>
             </div>
-            <div class="col-4 card-skinning">
+            <div class="card-skinning">
                 <span><i class="fa-solid fa-chart-simple"></i></span>
                 <h5>Analytics and M&A</h5>
                 <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
                 <button>READ MORE</button>
             </div>
-            <div class="col-4 card-skinning">
+            <div class="card-skinning">
                 <span><i class="fa-solid fa-plane"></i></span>
                 <h5>Middle Marketing</h5>
                 <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
                 <button>READ MORE</button>
             </div>
-            <div class="col-4 card-skinning">
+            <div class="card-skinning">
                 <span><i class="fa-solid fa-globe"></i></span>
                 <h5>Legal Consulting</h5>
                 <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
                 <button>READ MORE</button>
             </div>
-            <div class="col-4 card-skinning">
+            <div class="card-skinning">
                 <span><i class="fa-solid fa-inbox"></i></span>
                 <h5>Regulatory risk</h5>
                 <p>Lorem ipsum dolor sit amet consecutor adipiscing elit</p>
@@ -72,13 +72,16 @@ name : 'CardContentComponent'
     }
 
     .card-skinning {
+        width: calc(100% / 3 - 20px);
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-around;
-        height: 250px;
+        height: 350px;
         border: 1px solid black;
         background-color: hsl(240deg 12% 11%);
         color: hsl(203deg 8% 55%);
+        margin: 10px;
     }
 
     h5 {
