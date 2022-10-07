@@ -55,6 +55,9 @@ footer{
         color: white;
         margin: 10px 0;
     }
+    button:hover{
+        background-color: #0d7e7e;
+    }
 }
 
 .logo-img{
@@ -74,5 +77,9 @@ footer{
     span{
         padding: 0 10px;
     }
+}
+a{
+    text-decoration: none;
+    color: hsl(255deg 6% 74%);
 }
 </style>

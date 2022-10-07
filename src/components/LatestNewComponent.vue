@@ -1,12 +1,11 @@
 <template>
   <section>
     <div class="container">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between py-4">
             <div>
-                <p>OUR BUSINESS AREAS</p>
-                <h2>EXCELLENCE IN SERVICES</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia hic fuga rem dolorum fugit
-                    doloremque</p>
+                <h6>OUR EDITORIAL CONTENT</h6>
+                <h2>LATEST <h2 class="d-inline-block green">NEWS</h2></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia hic fuga rem dolorum</p>
             </div>
             <div class="align-self-end">
                 <button>SEE ALL</button>
@@ -59,5 +58,27 @@ section{
     }
     h5{
         color: white;
+        padding-bottom: 10px;
+    }
+    h6{
+        color: #0d7e7e;
+        padding: 5px 0;
+    }
+    p{
+        color: hsl(203deg 8% 55%);
+        padding: 5px 0;
+    }
+    button{
+        border: 1px solid #0d7e7e;
+        border-radius: 5%;
+        background-color: #0d7e7e;
+        padding: 10px;
+        color: white;
+    }
+    .green {
+        background-color: hsl(189deg 40% 90%);
+        padding: 10px;
+        border-radius: 5px;
+        color: hsl(178deg 93% 26%);
     }
 </style>

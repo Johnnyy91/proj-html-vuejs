@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p>OUR BUSINESS AREAS</p>
-                <h2>EXCELLENCE IN SERVICES</h2>
+                <h6>OUR BUSINESS AREAS</h6>
+                <h2>EXCELLENCE IN <h2 class="d-inline-block green">SERVICES</h2> </h2>
                 <div class="d-flex justify-content-between">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia hic fuga rem dolorum fugit
+                    <p class="color-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia hic fuga rem dolorum fugit
                         doloremque</p>
                     <button>SEE ALL</button>
                 </div>
@@ -67,6 +67,11 @@ name : 'CardContentComponent'
     h2 {
         color: white;
     }
+    .green{
+        background-color: #0d7e7e;
+        padding: 10px;
+        border-radius: 5px;
+    }
 
     span {
         font-size: 2rem;
@@ -81,9 +86,13 @@ name : 'CardContentComponent'
         justify-content: space-around;
         height: 350px;
         border: 1px solid black;
+        border-radius: 5px;
         background-color: hsl(240deg 12% 11%);
         color: hsl(203deg 8% 55%);
         margin: 10px;
+        button{
+            width: 40%;
+        }
     }
 
     h5 {
@@ -96,6 +105,17 @@ name : 'CardContentComponent'
         background-color: transparent;
         padding: 10px;
         color: white;
+    }
+    button:hover{
+        background-color: #0d7e7e;
+    }
+    .color-grey{
+        color: hsl(203deg 8% 55%);
+        padding: 5px 0;
+    }
+    h6{
+        color: hsl(178deg 93% 26%);
+        padding: 5px 0;
     }
 }
 </style>

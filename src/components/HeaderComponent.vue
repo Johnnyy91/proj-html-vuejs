@@ -121,7 +121,7 @@ props: {
         padding: 15px 0;
     }
     p{
-        color: hsl(203deg 8% 55%);
+        color: hsl(240deg 3% 93%);
         padding: 10px 0;
         width: 600px;
     }

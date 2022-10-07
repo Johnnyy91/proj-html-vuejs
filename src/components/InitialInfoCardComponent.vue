@@ -2,20 +2,20 @@
 <section id="initial-info-card">
     <div class="container py-5">
         <div class="row d-flex justify-content-center gap-4">
-            <div class="col-3 card py-4 px-4">
+            <div class="col-3 card py-4 px-4 effects">
                 <span class="skin"><i class="fa-solid fa-user-group"></i></span>
                 <h5 class="py-3">Human Capital</h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore deserunt incidunt culpa ab pariatur
                     iusto ducimus</p>
             </div>
-            <div class="col-3 card py-4 px-4">
+            <div class="col-3 card py-4 px-4 effects">
                 <span class="skin"><i class="fa-solid fa-clock-rotate-left"></i></span>
                 <h5 class="py-3">Core Business</h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore deserunt incidunt culpa ab pariatur
                     iusto
                     ducimus</p>
             </div>
-            <div class="col-3 card py-4 px-4">
+            <div class="col-3 card py-4 px-4 effects">
                 <span class="skin"><i class="fa-solid fa-clock"></i></span>
                 <h5 class="py-3">Performance</h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore deserunt incidunt culpa ab pariatur
@@ -45,9 +45,9 @@ name : 'InitialInfoCardComponent'
     border: none;
 
     .skin {
-        width: 20%;
+        width: 50px;
         border: 1px solid hsl(189deg 40% 90%);
-        border-radius: 20px;
+        border-radius: 50%;
         text-align: center;
         padding: 5px 10px;
         background-color: hsl(189deg 40% 90%);
@@ -58,5 +58,9 @@ name : 'InitialInfoCardComponent'
     p {
         color: hsl(203deg 8% 55%);
     }
+}
+.effects:hover{
+    transform: translate(0 , -20px);
+    cursor: pointer;
 }
 </style>
