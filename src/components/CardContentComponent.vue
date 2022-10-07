@@ -84,7 +84,7 @@ name : 'CardContentComponent'
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-around;
-        height: 350px;
+        height: 300px;
         border: 1px solid black;
         border-radius: 5px;
         background-color: hsl(240deg 12% 11%);
@@ -93,6 +93,13 @@ name : 'CardContentComponent'
         button{
             width: 40%;
         }
+    }
+    .card-skinning:hover{
+        transform: translate(0, -20px);
+        cursor: pointer;
+    }
+    .card-skinning:hover span{
+        color: white;
     }
 
     h5 {

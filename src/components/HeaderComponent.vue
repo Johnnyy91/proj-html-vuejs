@@ -55,7 +55,7 @@ props: {
 <style lang="scss" scoped>
 #upper-part{
     background-color: #21343e;
-    color: white;
+    color: hsl(240deg 3% 93%);
     display: flex;
     justify-content: space-around;
 }
@@ -71,6 +71,10 @@ props: {
     padding: 15px;
     span{
         padding: 0 15px;
+    }
+    a{
+        color: hsl(240deg 3% 93%);
+        text-decoration: none;
     }
 }
 
@@ -93,7 +97,7 @@ props: {
 .navlink{
     display: flex;
     a{
-        color: white;
+        color: hsl(240deg 3% 93%);
         margin-left: 10px;
         padding: 10px;
     }

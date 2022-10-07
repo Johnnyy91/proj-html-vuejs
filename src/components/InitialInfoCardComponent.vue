@@ -54,7 +54,7 @@ name : 'InitialInfoCardComponent'
         color: hsl(180deg 100% 25%);
         font-size: 1.5rem;
     }
-
+    
     p {
         color: hsl(203deg 8% 55%);
     }
