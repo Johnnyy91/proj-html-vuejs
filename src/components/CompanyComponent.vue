@@ -1,5 +1,5 @@
 <template>
-<section id="company">
+<section id="company" class="py-0">
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 py-5">
@@ -40,7 +40,10 @@ name : 'CompanyComponent'
 </script>
 
 <style lang="scss" scoped>
-// SECTION COMPANY
+section{
+        padding-left: 200px;
+ }
+
 .under-box {
     width: 100%;
     display: flex;

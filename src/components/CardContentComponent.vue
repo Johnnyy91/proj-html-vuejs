@@ -1,11 +1,11 @@
 <template>
 <section id="card-content">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-10">
+        <div class="row">
+            <div class="col-12">
                 <p>OUR BUSINESS AREAS</p>
                 <h2>EXCELLENCE IN SERVICES</h2>
-                <div class="d-flex">
+                <div class="d-flex justify-content-between">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia hic fuga rem dolorum fugit
                         doloremque</p>
                     <button>SEE ALL</button>
@@ -60,6 +60,8 @@ name : 'CardContentComponent'
 
 <style lang="scss" scoped>
 #card-content {
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: black;
 
     h2 {

@@ -3,6 +3,7 @@
     <InitialInfoCardComponent />
     <CompanyComponent />
     <CardContentComponent />
+    <LatestNewComponent />
     <NewsletterComponent />
     <SendInfoMessageComponent />
   </main>
@@ -14,6 +15,7 @@ import CompanyComponent from './CompanyComponent.vue';
 import CardContentComponent from './CardContentComponent.vue';
 import SendInfoMessageComponent from './SendInfoMessageComponent.vue';
 import NewsletterComponent from './NewsletterComponent.vue';
+import LatestNewComponent from './LatestNewComponent.vue';
 
 export default {
 name : 'MainComponent',
@@ -22,7 +24,8 @@ components : {
     CompanyComponent,
     CardContentComponent,
     SendInfoMessageComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    LatestNewComponent,
 }
 }
 </script>
