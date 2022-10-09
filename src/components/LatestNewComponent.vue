@@ -45,6 +45,11 @@ section{
         width: 300px;
         border-radius: 5px;
     }
+    .personal-card:hover{
+        opacity: 0.7;
+        cursor: pointer;
+        transform: translate(0, -20px);
+    }
     .first-card{
         background-image: url(@/assets/images/news-1.jpg);
         background-size: cover;
