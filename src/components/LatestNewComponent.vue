@@ -13,7 +13,6 @@
         </div>
             <div class="d-flex justify-content-between">
                 <div class="personal-card first-card text-center d-flex align-items-end">
-                    <!--<p><span></span>Marta Kent</p>-->
                     <h5>Increasing  creativity is possible for everyone</h5>
                 </div>
                 <div class="personal-card second-card text-center d-flex align-items-end">
